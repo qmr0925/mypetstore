@@ -1,0 +1,48 @@
+/**{*/
+/*    margin: 0;*/
+/*    padding: 86px;*/
+
+/*}*/
+.lunbos{
+    width:160px;
+    height: 336px;
+    margin: 0 auto;
+    padding: 86px;
+    border:none;
+    overflow: hidden;
+
+}
+ul{
+    width:1764px;
+    height:86px;
+    animation: lunbo 10s infinite linear;
+}
+ul li {
+    list-style: none;
+    float: left;
+
+}
+ul li img{
+    width: 250px;
+    height:250px;
+}
+@keyframes lunbo {
+    from {
+        margin-left: 0px;
+    }
+    to {
+        margin-left: -882px;
+    }
+}
+div:hover ul {
+    animation-play-state: paused;
+}
+div:hover ul li {
+    opacity: .5;
+}
+
+ div ul li:hover{
+     opacity: 1;
+}
+
+

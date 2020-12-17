@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="mypetstore:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="mypetstore/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="mypetstore" />
+        </element>
+      </element>
+      <element id="archive" name="mypetstore.jar" />
+    </root>
+  </artifact>
+</component>
